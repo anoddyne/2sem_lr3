@@ -18,5 +18,13 @@
     <ClCompile Include="2sem_lr3.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="_Stack.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="_Stack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
