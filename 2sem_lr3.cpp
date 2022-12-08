@@ -6,7 +6,7 @@
 #include <fstream>
 #include <string>
 #include <Windows.h>
-#include "Stack.h"
+#include "_Stack.h"
 
 using namespace std;
 
@@ -14,7 +14,7 @@ using namespace std;
 void invert(string s) {
 
     //создаем пустой стек со строками вместимостью 200 слов
-    _Stack<string> file_string(200);
+    _Stack file_string(200);
 
     //создаем буферную строку, чтобы хранить там слова, которые потом будем записывать поочередно в стек
     string buffer;
